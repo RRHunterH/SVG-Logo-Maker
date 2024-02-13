@@ -1,6 +1,6 @@
 const prompts = require('prompts');
 const fs = require('fs');
-const { createSVG } = require('./svgGenerator');
+const { createSVG } = require('./lib/svgGenerator');
 
 async function getUserInput() {
   const userInput = await prompts([
